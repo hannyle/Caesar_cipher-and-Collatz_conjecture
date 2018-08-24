@@ -1,4 +1,3 @@
-# DO NOT MODIFY THESE 2 LINES
 ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
 ALPHABET += ALPHABET.upper() + ' .,!?'
 
@@ -12,7 +11,7 @@ def encrypt(msg, shift):
     print(encrypt('John', 15)) -> 'YDwC'
     print(encrypt(' ', 6)) -> 'b'
     """
-    # remove this pass statement and write the body of your function
+    # the body of function
     encrypted_msg=''
     new_index=0
     for i in msg:
@@ -41,7 +40,7 @@ def decrypt(encrypted_msg, shift):
     print(decrypt('eDUHM', 25)) -> Kevin
     print(decrypt('j.GT', -10000)) -> Ivan
     """
-    # remove this pass statement and write the body of your function
+    # the body of function
     decrypted_msg=''
     new_index=0
     

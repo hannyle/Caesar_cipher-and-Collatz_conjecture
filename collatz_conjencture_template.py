@@ -10,7 +10,7 @@ def get_cycle_length(n):
     print(get_cycle_length(1)) -> 1
     print(get_cycle_length(197)) -> 27
     """
-    # remove this pass statement and write the body of your function
+    # the body of function
     
     if n <= 0 or n>=10000 or type(n)!=int:
        return 'Error'
@@ -38,7 +38,7 @@ def get_cycle_length_range(start, end):
     print(get_cycle_length_range(200, 100)) -> 125
     print(get_cycle_length_range(1, 2)) -> 2
     """
-    # remove this pass statement and write the body of your function
+    #the body of function
     if start<=0 or start>=10000 or type(start)!=int or end<=0 or end>=10000 or type(end)!=int:
         return 'Error'
     
